@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_info_president"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_president"
+            android:gravity="start|top"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/secondary_text"
+            android:textSize="32sp"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_info_see_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_see_all"
+            android:gravity="end|top"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/secondary_text"
+            android:layout_alignRight="@id/tv_info_president"
+            android:layout_alignBaseline="@id/tv_info_president"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/info_recycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/recycler_view_padding_left" >
+        </androidx.recyclerview.widget.RecyclerView>
+    </FrameLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

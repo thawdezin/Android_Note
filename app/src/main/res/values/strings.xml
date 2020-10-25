@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Androcomp</string>
+    <string name="app">Androcomp</string>
+    <string name="info">Info</string>
+    <string name="file">File</string>
+    <string name="note">Note</string>
+    <string name="home">AndroComp</string>
+    <string name="edit_note_title">Title</string>
+    <string name="edit_note_description">Description</string>
+    <string name="edit_note">Edit Note</string>
+
+    <!-- EditNote Activity -->
+    <string name="create_note">Create Note</string>
+
+    <!-- Note ItemView -->
+    <string name="date">12 Dec 2019</string>
+    <string name="time">12</string>
+    <string name="title">December</string>
+    <string name="description">Happy Holiday</string>
+
+    <!-- Glide -->
+    <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>
+
+    <!-- Info Fragment -->
+    <string name="info_see_all">See All</string>
+    <string name="info_president">Presidents</string>
+    <string name="item_info_start_end">-</string>
+
+    <!-- See All President Activity -->
+    <string name="see_all_presidents">American Presidents</string>
+    <string name="president_present">Present</string>
+    <string name="president_number">1th</string>
+    <string name="president_title">American President</string>
+    <string name="obama">Barack Obama</string>
+    <string name="change_info_see_all_layout">layout</string>
+    <string name="linear_layout">List View</string>
+    <string name="grid_layout">Grid View</string>
+    <string name="took_office">Took Office</string>
+    <string name="left_office">Left Office</string>
+    <string name="birth_year">Birth Year</string>
+    <string name="death_year">Death Year</string>
+
+</resources>
+
