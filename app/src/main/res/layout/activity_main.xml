@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,7 +12,7 @@
         android:layout_height="wrap_content"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
 
-        <androidx.appcompat.widget.Toolbar
+        <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,8 +44,9 @@
         android:layout_gravity="end|bottom"
         android:layout_marginEnd="@dimen/floating_action_margin_right"
         android:layout_marginBottom="@dimen/floating_action_margin_bottom"
-        android:background="@color/accent"
+        android:background="?attr/colorSecondary"
         android:src="@drawable/ic_fab_note"
         android:visibility="visible"
-        app:fabSize="normal" />
+        app:fabSize="normal"
+        android:contentDescription="@string/app_name" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

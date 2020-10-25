@@ -3,6 +3,7 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_gravity="center_vertical"
     android:layout_margin="5dp"
     android:background="@drawable/image_view_background"
@@ -15,21 +16,21 @@
         android:layout_margin="10dp"
         android:orientation="vertical">
 
-        <androidx.appcompat.widget.AppCompatImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/iv_item_info_president_grid_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:src="@drawable/placeholder_image" />
 
-        <androidx.appcompat.widget.AppCompatTextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/item_info_president_name_grid_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="6dp"
             android:text="@string/title"
-            android:textColor="@color/secondary_text" />
+            android:textColor="?attr/colorPrimary" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -37,7 +38,7 @@
             android:layout_gravity="center"
             android:orientation="horizontal">
 
-            <androidx.appcompat.widget.AppCompatTextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/item_info_president_start_year_grid_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -46,15 +47,15 @@
                 android:text="@string/title" />
 
 
-            <androidx.appcompat.widget.AppCompatTextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/item_info_start_end_grid_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="6dp"
-                android:text="-" />
+                tools:text="-" />
 
-            <androidx.appcompat.widget.AppCompatTextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/item_info_president_end_year_grid_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -64,7 +65,7 @@
 
         </LinearLayout>
 
-        <androidx.appcompat.widget.AppCompatTextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/item_info_president_party_grid_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

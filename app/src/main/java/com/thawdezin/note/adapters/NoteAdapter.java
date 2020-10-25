@@ -13,7 +13,7 @@ import com.thawdezin.note.viewholders.NoteViewHolder;
 import java.util.List;
 
 public class NoteAdapter<MyNote> extends RecyclerView.Adapter<NoteViewHolder> {
-    private List<MyNote> mNoteList;
+    private final List<MyNote> mNoteList;
 
     public NoteAdapter(@NonNull List<MyNote> mNoteList) {
         this.mNoteList = mNoteList;

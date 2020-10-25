@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Androcomp</string>
-    <string name="app">Androcomp</string>
+    <string name="app_name">Note</string>
+    <string name="app">Note</string>
     <string name="info">Info</string>
     <string name="file">File</string>
     <string name="note">Note</string>
-    <string name="home">AndroComp</string>
+    <string name="home">Home</string>
     <string name="edit_note_title">Title</string>
     <string name="edit_note_description">Description</string>
     <string name="edit_note">Edit Note</string>

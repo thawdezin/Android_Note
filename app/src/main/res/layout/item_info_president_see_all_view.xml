@@ -7,7 +7,7 @@
     android:orientation="horizontal"
     android:weightSum="100">
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:id="@+id/card_view_image"
         android:layout_width="wrap_content"
         android:layout_height="150dp"
@@ -15,15 +15,15 @@
         app:cardElevation="0dp"
         android:layout_gravity="center_vertical">
 
-        <androidx.appcompat.widget.AppCompatImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/iv_item_info_see_all_president"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:adjustViewBounds="true"
             android:src="@drawable/placeholder_image" />
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:id="@+id/card_view_info"
         android:layout_width="200dp"
         android:layout_height="150dp"
@@ -40,7 +40,6 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:orientation="vertical"
-            android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:layout_gravity="center_vertical">
 
@@ -48,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <androidx.appcompat.widget.AppCompatTextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/item_info_president_see_all_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -63,21 +62,21 @@
                 android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
-                <androidx.appcompat.widget.AppCompatTextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/item_info_president_see_all_start_year"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/title" />
 
-                <androidx.appcompat.widget.AppCompatTextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/item_info_start_end_see_all"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/item_info_start_end" />
 
-                <androidx.appcompat.widget.AppCompatTextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/item_info_president_see_all_end_year"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -90,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp">
 
-                <androidx.appcompat.widget.AppCompatTextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/item_info_president__see_all_party"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -100,7 +99,7 @@
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
 

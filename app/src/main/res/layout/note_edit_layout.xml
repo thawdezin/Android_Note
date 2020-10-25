@@ -15,7 +15,7 @@
             android:id="@+id/toolbar"
             layout="@layout/toolbar" />
         <-->
-        <androidx.appcompat.widget.AppCompatEditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
             android:hint="@string/edit_note_title"
             android:maxLength="30" />
 
-        <androidx.appcompat.widget.AppCompatEditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,8 +46,9 @@
         android:layout_gravity="end|bottom"
         android:layout_marginEnd="@dimen/floating_action_margin_right"
         android:layout_marginBottom="@dimen/edit_note_floating_action_margin_bottom"
-        android:background="@color/accent"
+        android:background="?attr/colorSecondary"
         android:src="@drawable/ic_fab_save"
         android:visibility="visible"
-        app:fabSize="normal" />
+        app:fabSize="normal"
+        android:contentDescription="@string/app_name" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
